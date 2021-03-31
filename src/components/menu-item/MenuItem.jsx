@@ -1,3 +1,5 @@
+import { withRouter } from 'react-router-dom';
+
 const MenuItem =({styles, size, alignment, title, imageUrl}) => {
     return (
         <div class= {`column ${size} ${alignment}`}>
@@ -15,4 +17,4 @@ const MenuItem =({styles, size, alignment, title, imageUrl}) => {
     )
 }
 
-export default MenuItem;
+export default withRouter(MenuItem);
