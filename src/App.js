@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from './pages/homepage';
 import ShopPage from './pages/shoppage';
+import Header from './components/header/Header';
 
 import "bulma";
 
@@ -12,7 +13,8 @@ import "bulma";
 
 function App() {
   return (
-    <div>
+    <div class="container">
+      <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/shop" component={ShopPage} />

@@ -14,11 +14,11 @@ const CollectionItem = ({id, name, price, imageUrl}) => {
 
 
 
-                <footer class="card-footer">
-                    <p class="card-footer-item">
+                <footer class="card-footer is-bottom">
+                    <p class="card-footer-item ">
                         <span>{name}</span>
                     </p>
-                    <p class="card-footer-item">
+                    <p class="card-footer-item ">
                         <span>${price}</span>
                     </p>    
                 </footer>
